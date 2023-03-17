@@ -24,7 +24,7 @@ export default function Navbar() {
             </span>
           )}
         </Link>
-        <Link href="#" className="p-2">
+        <Link href="/login" className="p-2">
           LOGIN
         </Link>
       </div>

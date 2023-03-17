@@ -61,6 +61,7 @@ function CartScreen() {
                     </td>
                     <td className="p-5 text-right">
                       <select
+                        className=" hover:cursor-pointer hover:text-teal-700 "
                         value={item.quantity}
                         onChange={(e) =>
                           updateCartHandler(item, e.target.value)
@@ -95,7 +96,7 @@ function CartScreen() {
               </li>
               <li>
                 <button
-                  onClick={() => router.push('/shipping')}
+                  onClick={() => router.push('login?redirect=/shipping')}
                   className="primary-button w-full"
                 >
                   Check Out
