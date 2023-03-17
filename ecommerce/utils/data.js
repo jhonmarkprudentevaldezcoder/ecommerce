@@ -1,8 +1,8 @@
 const data = {
   products: [
     {
-      name: 'FREE SHIRT',
-      slug: 'FREE-SHIRT',
+      name: 'FREE SHIRT A',
+      slug: 'FREE-SHIRT A',
       category: 'SHIRT',
       image: '/images/tshirtC.png',
       price: 70,
@@ -13,8 +13,8 @@ const data = {
       description: 'popular shirt',
     },
     {
-      name: 'FREE SHIRT',
-      slug: 'FREE-SHIRT',
+      name: 'FREE SHIRT B',
+      slug: 'FREE-SHIRT B',
       category: 'SHIRT',
       image: '/images/tshirtB.png',
       price: 70,
@@ -25,8 +25,8 @@ const data = {
       description: 'popular shirt',
     },
     {
-      name: 'FREE SHIRT',
-      slug: 'FREE-SHIRT',
+      name: 'FREE SHIRT C',
+      slug: 'FREE-SHIRT C',
       category: 'SHIRT',
       image: '/images/tshirtA.png',
       price: 70,
@@ -37,8 +37,8 @@ const data = {
       description: 'popular shirt',
     },
     {
-      name: 'FREE SHIRT',
-      slug: 'FREE-SHIRT',
+      name: 'FREE SHIRT D',
+      slug: 'FREE-SHIRT D',
       category: 'SHIRT',
       image: '/images/tshirtB.png',
       price: 70,
