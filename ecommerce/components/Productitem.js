@@ -12,7 +12,7 @@ export default function Productitem({ product }) {
           className="rounded shadow"
         />
       </Link>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center p-5">
         <Link href={`/product/${product.slug}`}>
           <h2 className="text-lg">{product.name}</h2>
         </Link>
