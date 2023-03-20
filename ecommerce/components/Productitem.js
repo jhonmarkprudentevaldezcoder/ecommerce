@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-export default function Productitem({ product }) {
+export default function Productitem({ product, addToCardHandler }) {
   return (
     <div className="card">
       <Link href={`/product/${product.slug}`}>
@@ -18,7 +18,11 @@ export default function Productitem({ product }) {
         </Link>
         <p className="mb-2">{product.brand}</p>
         <p>₱{product.price}</p>
-        <button type="button" className="primary-button">
+        <button
+          type="button"
+          className="primary-button"
+          onClick={() => addToCardHandler(product)}
+        >
           Add to cart
         </button>
       </div>
