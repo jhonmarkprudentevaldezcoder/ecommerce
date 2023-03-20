@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <nav className="flex h-12 justify-between shadow-md items-center px-4">
       <Link href="/" className="text-lg font-bold">
-        CHAMAE ECOMMERCE
+        SHOP WITH ECOM-ME
       </Link>
       <div>
         <Link href="/Cart" className="p-2">
